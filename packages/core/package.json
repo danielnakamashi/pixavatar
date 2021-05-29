@@ -1,0 +1,23 @@
+{
+  "name": "pixavatar",
+  "version": "0.1.0",
+  "description": "Github like avatar generator based on text",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/danielnakamashi/avatar",
+  "author": "Daniel Nakamashi",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "sha.js": "^2.4.11"
+  },
+  "devDependencies": {
+    "@types/sha.js": "^2.4.0"
+  }
+}
