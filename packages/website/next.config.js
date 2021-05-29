@@ -1,4 +1,4 @@
 module.exports = {
-  basePath: '/avatar',
-  assetPrefix: '/avatar/',
+  basePath: '/pixavatar',
+  assetPrefix: '/pixavatar/',
 }
