@@ -15,9 +15,9 @@
     "build": "tsc"
   },
   "dependencies": {
-    "sha.js": "^2.4.11"
+    "sha.js": "2.4.11"
   },
   "devDependencies": {
-    "@types/sha.js": "^2.4.0"
+    "@types/sha.js": "2.4.0"
   }
 }
