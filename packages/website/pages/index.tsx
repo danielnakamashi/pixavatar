@@ -36,8 +36,13 @@ export default function Home() {
         </p>
 
         <p className={styles.description}>
-          <img src={avatar} width="100" height="100" />
+          <img src={avatar} />
         </p>
+        <footer>
+          <a className={styles.link} href="https://github.com/danielnakamashi/pixavatar">
+            Repository
+          </a>
+        </footer>
       </main>
     </div>
   )
