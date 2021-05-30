@@ -27,11 +27,17 @@ function getSVG(color: string, pixels: boolean[]) {
     const line = Math.floor(index / 5)
     const row = index % 5
 
+    if (!pixel) {
+      return
+    }
+
     return `<rect width="${PIXEL_SIZE}" height="${PIXEL_SIZE}" x="${row * PIXEL_SIZE}" y="${
       line * PIXEL_SIZE
-    }" fill="${Boolean(pixel) ? color : 'transparent'}" />`
+    }" />`
   })
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1">${pixelsRects.join('')}</svg>`
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1"><g fill="${color}">${pixelsRects.join(
+    ''
+  )}</g></svg>`
 
   return svg
 }

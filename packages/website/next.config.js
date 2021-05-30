@@ -1,4 +1,4 @@
 module.exports = {
-  basePath: '/pixavatar',
-  assetPrefix: '/pixavatar/',
+  basePath: process.env.NODE_ENV === 'production' ? '/pixavatar' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/pixavatar/' : '',
 }
