@@ -2,7 +2,6 @@
   "name": "pixavatar",
   "repository": "https://github.com/danielnakamashi/avatar",
   "author": "Daniel Nakamashi",
-  "version": "0.1.0",
   "license": "MIT",
   "private": true,
   "workspaces": {
@@ -11,7 +10,8 @@
     ]
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "ver": "lerna version"
   },
   "devDependencies": {
     "@tsconfig/node12": "1.0.7",
