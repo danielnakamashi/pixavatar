@@ -30,6 +30,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - run: yarn install
+      - run: cp README.md packages/core
       - run: yarn workspace pixavatar build
       - run: yarn workspace pixavatar publish
         env:
