@@ -2,6 +2,11 @@
   "name": "pixavatar",
   "version": "0.2.10",
   "description": "Github like avatar generator based on text",
+  "keywords": [
+    "avatar",
+    "create",
+    "svg"
+  ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "https://github.com/danielnakamashi/pixavatar",
