@@ -35,9 +35,9 @@ function getSVG(color: string, pixels: boolean[]) {
       line * PIXEL_SIZE
     }" />`
   })
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1"><g fill="${color}">${pixelsRects.join(
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" width="100" height="100" fill="${color}">${pixelsRects.join(
     ''
-  )}</g></svg>`
+  )}</svg>`
 
   return svg
 }
