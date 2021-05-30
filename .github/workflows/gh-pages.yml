@@ -6,6 +6,7 @@ name: github pages
 on:
   push:
     branches: [master]
+    tags: [master]
 
 jobs:
   deploy:
