@@ -1,6 +1,6 @@
 {
   "name": "pixavatar",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Github like avatar generator based on text",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
