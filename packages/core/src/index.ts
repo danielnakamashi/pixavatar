@@ -28,7 +28,7 @@ function getSVG(color: string, pixels: boolean[]) {
     const row = index % 5
 
     if (!pixel) {
-      return ''
+      return
     }
 
     return `<rect width="${PIXEL_SIZE}" height="${PIXEL_SIZE}" x="${row * PIXEL_SIZE}" y="${
